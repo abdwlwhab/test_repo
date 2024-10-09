@@ -1,0 +1,280 @@
+/* p { */
+/*كده بترجت كل البراجراف*/
+/*اعمل سلكت للي عايز تعمل عليه ديزين بلكلاس او الاي دي*/
+/* color: aqua; */
+/*سيمي كولوم عشان تعمل تعديل تاني فسطر بعده*/
+/* font-size: 40px;
+} */
+
+body {
+    background-color: #b0a6a6;
+}
+
+.C {
+    /*.لوكلاس*/
+    color: #838181;
+    font-size: 40px;
+}
+
+#D {
+    /*#لوid*/
+    color: #8f8c8c;
+    font-size: 40px;
+}
+
+.one {
+    background-image: url("photos/colorful-background-with-alcohol-ink.jpg.png");
+    background-repeat: "repeat";
+    /*no-repeat  repeat-x   repeat-y*/
+}
+
+.two {
+    background-color: rgb(200, 255, 50 / 50%);
+    background-image: url("photos/colorful-background-with-alcohol-ink.jpg.png");
+    background-attachment: "scroll";
+    /*عشان الخلفيه متتحركش*/
+    background-attachment: fixed;
+    /*عشان تتحرك*/
+}
+
+
+.three {
+    background-color: #ff00ff;
+    background-image: url("photos/colorful-background-with-alcohol-ink.jpg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    /*left center right top bottom*/
+    background-size: cover;
+    /*بتغطي الكلام كلول*/
+    background-size: contain;
+    /*بتزهر هيه كلها */
+    background-size: 1000px 2000px;
+    /*we can control with pexels or %*/
+}
+
+/*
+======================================================================================================================================================================
+/    7    /
+*/
+
+.padding {
+    color: #000000;
+    background-color: #ff00ff;
+    /*or padding-top ......*/
+    /* top right botom lift */
+    padding: 20px 700px 20px 650px;
+}
+
+.mergian {
+    background-color: #7906cb;
+    width: 20%;
+    /*thats the area taken to div from width*/
+    margin-left: auto;
+    /*outside area padding and make lift and right auto to be in center*/
+    margin-right: auto;
+    /*border option*/
+    border-width: 10;
+    border-color: #7906cb rgb(199, 181, 181) rgb(131, 228, 112) rgb(235, 242, 37);
+    border-style: solid dashed dotted double;
+    /*must write this to show border*/
+    /*border: 10px red solid  (brief)*/
+    outline: red solid 10px;
+}
+
+.four {
+    color: #03edf5;
+    text-align: center;
+    font-size: 200px;
+
+}
+
+/* 
+====================11=========================================================
+*/
+
+.five {
+    text-align: center;
+    padding: 100px;
+    margin: 100;
+    color: #7906cb;
+    display: block;
+    /*take full width and make line break befor and after*/
+    /**/
+}
+
+.six {
+    background-color: #03edf5;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    display: inline;
+}
+
+span {
+    background-color: #03edf5;
+    /* span don't make line break (inline)*/
+    /* don't respect width hight  */
+    /* don't respeact padding margin excpt lift right */
+}
+
+
+
+/* =============*12*============================ */
+
+.eight {
+    background-color: #03edf5;
+    display: none;
+    /*hidden the content*/
+}
+
+.nine {
+    visibility: hidden;
+    /*hidden contant but not ther area*/
+}
+
+/* .one,.two,.three{
+ to control muelty     
+} */
+
+
+
+/* 
+==================14 nesting================
+*/
+
+div p {
+    color: red;
+    padding: 7px;
+    margin: 5;
+    background-color: #EEEEEE;
+    border-bottom: red solid;
+
+}
+
+/* 
+================15==============================
+*/
+
+.eleven {
+    color: #000000;
+    width: fit-content;
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hopa {
+    text-shadow: 0px 0px 10px #5cfaff,
+        0px 0px 20px #5cfaff,
+        0px 0px 40px #5cfaff,
+        0px 0px 80px #5cfaff;
+    font-size: 100px;
+    color: #5cfaff;
+    text-align: center;
+}
